@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.android.nvm_abhinav_vutukuri.in.analogclock.MainActivity">
+
+    <ImageView
+        android:id="@+id/dial_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dial"/>
+
+    <ImageView
+        android:id="@+id/hourHand_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hour_hand"/>
+
+    <ImageView
+        android:id="@+id/minuteHand_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/minute_hand"/>
+
+    <ImageView
+        android:id="@+id/secondHand_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/second_hand"/>
+</RelativeLayout>
