@@ -77,18 +77,16 @@ public class MainActivity extends AppCompatActivity
     void rotateAllClockHands()
     {
         //rotate all clock hands to show current time
-        secondHand_ImageView.setRotation((utils.getCurrentSeconds() * SECOND_HAND_ROTATION_DEGREES) - OFFSET_SECOND_HAND_IN_DEGREES);
-        minuteHand_ImageView.setRotation((utils.getCurrentMinute() * MINUTE_HAND_ROTATION_DEGREES) - OFFSET_MINUTE_HAND_IN_DEGREES);
-        hourHand_ImageView.setRotation((utils.getCurrentHour() * HOUR_HAND_ROTATION_DEGREES_PER_HOUR) + (utils.getCurrentMinute() * HOUR_HAND_ROTATION_DEGREES_PER_MINUTE) -
-                                               OFFSET_HOUR_HAND_IN_DEGREES);
+        secondHand_ImageView.setRotation(utils.getSecondHandDegrees());
+        minuteHand_ImageView.setRotation(utils.getMinuteHandDegrees());
+        hourHand_ImageView.setRotation(utils.getHourHandDegrees());
     }
 
     void rotateMinuteAndHourHands()
     {
         //rotate minute & hour hands to show current time
-        minuteHand_ImageView.setRotation((utils.getCurrentMinute() * MINUTE_HAND_ROTATION_DEGREES) - OFFSET_MINUTE_HAND_IN_DEGREES);
-        hourHand_ImageView.setRotation((utils.getCurrentHour() * HOUR_HAND_ROTATION_DEGREES_PER_HOUR) + (utils.getCurrentMinute() * HOUR_HAND_ROTATION_DEGREES_PER_MINUTE) -
-                                               OFFSET_HOUR_HAND_IN_DEGREES);
+        minuteHand_ImageView.setRotation(utils.getMinuteHandDegrees());
+        hourHand_ImageView.setRotation(utils.getHourHandDegrees());
     }
 
     final Runnable rotateSecondHandRunnable = new Runnable()
@@ -96,7 +94,7 @@ public class MainActivity extends AppCompatActivity
         @Override
         public void run()
         {
-            secondHand_ImageView.setRotation((utils.getCurrentSeconds() * SECOND_HAND_ROTATION_DEGREES) - OFFSET_SECOND_HAND_IN_DEGREES);
+            secondHand_ImageView.setRotation(utils.getSecondHandDegrees());
             secondHand_ImageView.post(rotateSecondHandRunnable);
         }
     };
