@@ -36,17 +36,18 @@ class Utils
 
     float getHourHandDegrees()
     {
-        return ( (getCurrentHour() * HOUR_HAND_ROTATION_DEGREES_PER_HOUR) + ( getCurrentMinute() * HOUR_HAND_ROTATION_DEGREES_PER_MINUTE ) -
-                OFFSET_HOUR_HAND_IN_DEGREES );
+        return ((getCurrentHour() * HOUR_HAND_ROTATION_DEGREES_PER_HOUR) +
+                (getCurrentMinute() * HOUR_HAND_ROTATION_DEGREES_PER_MINUTE) -
+                OFFSET_HOUR_HAND_IN_DEGREES);
     }
 
     float getMinuteHandDegrees()
     {
-        return ( (getCurrentMinute() * MINUTE_HAND_ROTATION_DEGREES) - OFFSET_MINUTE_HAND_IN_DEGREES );
+        return ((getCurrentMinute() * MINUTE_HAND_ROTATION_DEGREES) - OFFSET_MINUTE_HAND_IN_DEGREES);
     }
 
     float getSecondHandDegrees()
     {
-        return ( (getCurrentSeconds() * SECOND_HAND_ROTATION_DEGREES) - OFFSET_SECOND_HAND_IN_DEGREES );
+        return ((getCurrentSeconds() * SECOND_HAND_ROTATION_DEGREES) - OFFSET_SECOND_HAND_IN_DEGREES);
     }
 }

@@ -11,14 +11,6 @@ import android.widget.ImageView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static apps.android.nvm_abhinav_vutukuri.in.analogclock.Constants.HOUR_HAND_ROTATION_DEGREES_PER_HOUR;
-import static apps.android.nvm_abhinav_vutukuri.in.analogclock.Constants.HOUR_HAND_ROTATION_DEGREES_PER_MINUTE;
-import static apps.android.nvm_abhinav_vutukuri.in.analogclock.Constants.MINUTE_HAND_ROTATION_DEGREES;
-import static apps.android.nvm_abhinav_vutukuri.in.analogclock.Constants.OFFSET_HOUR_HAND_IN_DEGREES;
-import static apps.android.nvm_abhinav_vutukuri.in.analogclock.Constants.OFFSET_MINUTE_HAND_IN_DEGREES;
-import static apps.android.nvm_abhinav_vutukuri.in.analogclock.Constants.OFFSET_SECOND_HAND_IN_DEGREES;
-import static apps.android.nvm_abhinav_vutukuri.in.analogclock.Constants.SECOND_HAND_ROTATION_DEGREES;
-
 public class MainActivity extends AppCompatActivity
 {
     @BindView(R.id.dial_ImageView)
@@ -30,7 +22,6 @@ public class MainActivity extends AppCompatActivity
     @BindView(R.id.secondHand_ImageView)
     ImageView secondHand_ImageView;
 
-    BroadcastReceiver timeTickReceiver;
     Utils utils;
 
     @Override
@@ -43,18 +34,6 @@ public class MainActivity extends AppCompatActivity
         utils = new Utils();
         rotateAllClockHands();
         secondHand_ImageView.post(rotateSecondHandRunnable);
-
-        timeTickReceiver = new BroadcastReceiver()
-        {
-            @Override
-            public void onReceive(Context context, Intent intent)
-            {
-                if (intent.getAction().equals(Intent.ACTION_TIME_TICK))
-                {
-                    rotateMinuteAndHourHands();
-                }
-            }
-        };
     }
 
     @Override
@@ -99,4 +78,15 @@ public class MainActivity extends AppCompatActivity
         }
     };
 
+    BroadcastReceiver timeTickReceiver = new BroadcastReceiver()
+    {
+        @Override
+        public void onReceive(Context context, Intent intent)
+        {
+            if (intent.getAction().equals(Intent.ACTION_TIME_TICK))
+            {
+                rotateMinuteAndHourHands();
+            }
+        }
+    };
 }
