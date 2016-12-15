@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_6e489feb20dee0609e648c593b05e437c99c94f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_27d53756a9cd4c7c75ce1e8458d74c981c055650/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_9b745cbfb0d9f7663f3d04d4ddbce2a397cd109f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_33171d34e9a6eec9e5ebece1d4087f4a44e0c10b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_e5afd6b5a9202841dc7a07e3ba09feb7667044f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8144e05f9d52c56fe9f0b9a2abc1c8b00550b4b3">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_065646ce2d2eb5c61eac77925fcbdcdf678ed2ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_5e25fa49dbdadf5c3f5eb47eefc1d597a9d1bd56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59d66efe76c4104b9bc36f978da425c9cc4ad2e9">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_df1e751dde0f9159d0b98bfde140d574cc9b3045/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_9d8883c317869d062c4dff385ddb7671ee3939cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_d756b0c6c3edc88c2d56da37d60eeb8ac7bb79b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_232a43c65e8cb3666315a1469bbf2f3e6e7966eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_b7ad9392078e523797112aa21e9a6bacebebce3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_41b503ac9d925dd43232048d5b23daf5ac0e399a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_b6acbcfc6f082faef316644f85f7a9aa2666885b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_86140497c1e289aed5f708699e3972ffcc534db8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_437e733f10f820ea7b668c2b99e782d9420c4d23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_19887cce0888ac1a9a1764b63c6de40a67f52ed3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_c5b63d1702c4e6332652895ec23377a3bd9749ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Admin/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_f9d12a03115ac1974d6eff3504418ec0955bf0d0/classes.dex" />
+    </item>
+
+</items>

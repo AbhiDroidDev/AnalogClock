@@ -1,0 +1,7 @@
+#Thu Dec 15 12:09:02 IST 2016
+base.0=/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_065646ce2d2eb5c61eac77925fcbdcdf678ed2ea
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_df1e751dde0f9159d0b98bfde140d574cc9b3045/classes.dex
+base.1=/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_df1e751dde0f9159d0b98bfde140d574cc9b3045
+file.0=/Users/Admin/Desktop/abhi/AnalogClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_065646ce2d2eb5c61eac77925fcbdcdf678ed2ea/classes.dex

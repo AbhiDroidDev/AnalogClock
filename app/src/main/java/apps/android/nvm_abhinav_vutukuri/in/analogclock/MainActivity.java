@@ -1,3 +1,4 @@
+
 package apps.android.nvm_abhinav_vutukuri.in.analogclock;
 
 import android.content.BroadcastReceiver;
@@ -13,80 +14,43 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity
 {
-    @BindView(R.id.dial_ImageView)
     ImageView dial_ImageView;
-    @BindView(R.id.minuteHand_ImageView)
     ImageView minuteHand_ImageView;
-    @BindView(R.id.hourHand_ImageView)
     ImageView hourHand_ImageView;
-    @BindView(R.id.secondHand_ImageView)
     ImageView secondHand_ImageView;
 
-    Utils utils;
+    Clock clock;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
 
-        utils = new Utils();
-        rotateAllClockHands();
-        secondHand_ImageView.post(rotateSecondHandRunnable);
+        dial_ImageView = (ImageView)findViewById(R.id.dial_ImageView);
+        minuteHand_ImageView = (ImageView)findViewById(R.id.minuteHand_ImageView);
+        hourHand_ImageView = (ImageView)findViewById(R.id.hourHand_ImageView);
+        secondHand_ImageView = (ImageView)findViewById(R.id.secondHand_ImageView);
+
+        clock = new Clock(secondHand_ImageView, minuteHand_ImageView, hourHand_ImageView);
+        clock.start();
     }
 
     @Override
     protected void onResume()
     {
-        registerReceiver(timeTickReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
+        registerReceiver(clock.timeTickReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
         super.onResume();
     }
 
     @Override
     protected void onPause()
     {
-        if (timeTickReceiver != null)
+        if (clock.timeTickReceiver != null)
         {
-            unregisterReceiver(timeTickReceiver);
+            unregisterReceiver(clock.timeTickReceiver);
         }
         super.onPause();
     }
 
-    void rotateAllClockHands()
-    {
-        //rotate all clock hands to show current time
-        secondHand_ImageView.setRotation(utils.getSecondHandDegrees());
-        minuteHand_ImageView.setRotation(utils.getMinuteHandDegrees());
-        hourHand_ImageView.setRotation(utils.getHourHandDegrees());
-    }
-
-    void rotateMinuteAndHourHands()
-    {
-        //rotate minute & hour hands to show current time
-        minuteHand_ImageView.setRotation(utils.getMinuteHandDegrees());
-        hourHand_ImageView.setRotation(utils.getHourHandDegrees());
-    }
-
-    final Runnable rotateSecondHandRunnable = new Runnable()
-    {
-        @Override
-        public void run()
-        {
-            secondHand_ImageView.setRotation(utils.getSecondHandDegrees());
-            secondHand_ImageView.post(rotateSecondHandRunnable);
-        }
-    };
-
-    BroadcastReceiver timeTickReceiver = new BroadcastReceiver()
-    {
-        @Override
-        public void onReceive(Context context, Intent intent)
-        {
-            if (intent.getAction().equals(Intent.ACTION_TIME_TICK))
-            {
-                rotateMinuteAndHourHands();
-            }
-        }
-    };
 }
